@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "johan-ernst/map",
+	"title": "Map globe",
+	"category": "theme",
+	"icon": "admin-site",
+	"description": "An interactive global map.",
+	"supports": {
+		"align": [ "full" ],
+		"html": false
+	},
+	"attributes": {
+		"loadingText": {
+			"type": "string"
+		}
+	},
+	"textdomain": "johan-ernst-blocks",
+	"editorScript": "file:./index.js",
+	"viewScript": "file:./view.js"
+}
